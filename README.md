@@ -31,7 +31,7 @@ public long add(int x, int y) {
 	return ret;
 }
 ```
-[測試案例]((src/test/java/tw/noah/mutaion/testing/example/service/test/MathServiceTest.java)
+[測試案例](src/test/java/tw/noah/mutaion/testing/example/service/test/MathServiceTest.java)
 ```java
 @Test
 public void testAdd(){
