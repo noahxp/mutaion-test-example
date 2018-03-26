@@ -1,4 +1,4 @@
-package tw.noah.mutaion.test.example.service;
+package tw.noah.mutaion.testing.example.service;
 
 public interface MathServivce
 {

@@ -1,8 +1,8 @@
-package tw.noah.mutaion.test.example.service.impl;
+package tw.noah.mutaion.testing.example.service.impl;
 
 
 import org.springframework.stereotype.Service;
-import tw.noah.mutaion.test.example.service.MathServivce;
+import tw.noah.mutaion.testing.example.service.MathServivce;
 
 @Service
 public class MathServivceImpl implements MathServivce {

@@ -1,6 +1,6 @@
-package tw.noah.mutaion.test.example.service;
+package tw.noah.mutaion.testing.example.service;
 
-import tw.noah.mutaion.test.example.entity.Salary;
+import tw.noah.mutaion.testing.example.entity.Salary;
 
 public interface SalaryService {
 

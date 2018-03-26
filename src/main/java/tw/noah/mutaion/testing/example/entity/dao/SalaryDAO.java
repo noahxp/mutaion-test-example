@@ -1,8 +1,8 @@
-package tw.noah.mutaion.test.example.entity.dao;
+package tw.noah.mutaion.testing.example.entity.dao;
 
 import java.util.Random;
 import org.springframework.stereotype.Repository;
-import tw.noah.mutaion.test.example.entity.Salary;
+import tw.noah.mutaion.testing.example.entity.Salary;
 
 @Repository
 public class SalaryDAO {

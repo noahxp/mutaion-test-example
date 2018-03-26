@@ -1,4 +1,4 @@
-package tw.noah.mutaion.test.example;
+package tw.noah.mutaion.testing.example;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

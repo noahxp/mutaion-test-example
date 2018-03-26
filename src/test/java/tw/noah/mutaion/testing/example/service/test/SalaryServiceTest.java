@@ -1,4 +1,4 @@
-package tw.noah.mutaion.test.example.service.test;
+package tw.noah.mutaion.testing.example.service.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import tw.noah.mutaion.test.example.entity.Salary;
-import tw.noah.mutaion.test.example.service.SalaryService;
+import tw.noah.mutaion.testing.example.entity.Salary;
+import tw.noah.mutaion.testing.example.service.SalaryService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -24,50 +24,50 @@ Mutation testing is used to design new software tests and evaluate the quality o
 
 ## 範例：
 
-原始碼
+[原始碼](src/main/java/tw/noah/mutaion/testing/example/service/impl/MathServivceImpl.java)
 ```java
-	public long add(int x, int y) {
-		long ret = x + y;
-		return ret;
-	}
+public long add(int x, int y) {
+	long ret = x + y;
+	return ret;
+}
 ```
-測試案例
+[測試案例]((src/test/java/tw/noah/mutaion/testing/example/service/test/MathServiceTest.java)
 ```java
-	@Test
-	public void testAdd(){
+@Test
+public void testAdd(){
 
-		int left = 100;
-		int right = 0;
-		long add = mathServivce.add(left,right);
+	int left = 100;
+	int right = 0;
+	long add = mathServivce.add(left,right);
 
-		assertEquals(add,left+right);
-	}
+	assertEquals(add,left+right);
+}
 ```
 程式變異
 ```java
-	public long add(int x, int y) {
-		long ret = x - y;
-		return ret;
-	}
+public long add(int x, int y) {
+	long ret = x - y;
+	return ret;
+}
 ```
 再測試後，測試案例並沒有報錯，經檢查後，調整如下：
 ```java
-	@Test
-	public void testAdd(){
+@Test
+public void testAdd(){
 
-		int left = 100;
-		int right = 0;
-		long add = mathServivce.add(left,right);
+	int left = 100;
+	int right = 0;
+	long add = mathServivce.add(left,right);
 
-		assertEquals(add,left+right);
+	assertEquals(add,left+right);
 
 
-		left = 100;
-		right = 3;
-		add = mathServivce.add(left,right);
+	left = 100;
+	right = 3;
+	add = mathServivce.add(left,right);
 
-		assertEquals(add,left+right);
-	}
+	assertEquals(add,left+right);
+}
 ```
 這次發生錯誤，代表已找到變異問題
 ```java
@@ -78,7 +78,7 @@ Actual   :103
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at tw.noah.mutaion.test.example.service.test.MathServiceTest.testAdd(MathServiceTest.java:36)
+	at MathServiceTest.testAdd(MathServiceTest.java:36)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

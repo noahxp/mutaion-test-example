@@ -1,11 +1,11 @@
-package tw.noah.mutaion.test.example;
+package tw.noah.mutaion.testing.example;
 
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import tw.noah.mutaion.test.example.entity.Salary;
-import tw.noah.mutaion.test.example.service.MathServivce;
-import tw.noah.mutaion.test.example.service.SalaryService;
+import tw.noah.mutaion.testing.example.entity.Salary;
+import tw.noah.mutaion.testing.example.service.MathServivce;
+import tw.noah.mutaion.testing.example.service.SalaryService;
 
 @Controller
 @Log4j2

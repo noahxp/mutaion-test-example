@@ -1,4 +1,4 @@
-package tw.noah.mutaion.test.example;
+package tw.noah.mutaion.testing.example;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;

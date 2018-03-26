@@ -1,4 +1,4 @@
-package tw.noah.mutaion.test.example.entity;
+package tw.noah.mutaion.testing.example.entity;
 
 
 import lombok.Data;

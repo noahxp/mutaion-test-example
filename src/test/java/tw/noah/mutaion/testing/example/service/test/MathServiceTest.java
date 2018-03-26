@@ -1,4 +1,4 @@
-package tw.noah.mutaion.test.example.service.test;
+package tw.noah.mutaion.testing.example.service.test;
 
 import lombok.extern.log4j.Log4j2;
 import static org.junit.Assert.assertEquals;
@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import tw.noah.mutaion.test.example.service.MathServivce;
+import tw.noah.mutaion.testing.example.service.MathServivce;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
