@@ -27,7 +27,13 @@ public class MathServiceTest {
 		long add = mathServivce.add(left,right);
 
 		assertEquals(add,left+right);
-//		assertNotEquals(add,left);
+
+
+		left = 100;
+		right = 3;
+		add = mathServivce.add(left,right);
+
+		assertEquals(add,left+right);
 	}
 
 }

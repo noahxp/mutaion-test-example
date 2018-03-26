@@ -9,7 +9,7 @@ public class MathServivceImpl implements MathServivce {
 
 	@Override
 	public long add(int x, int y) {
-//		long ret = x + y;
-		return (long)x + y;
+		long ret = x - y;
+		return ret;
 	}
 }
